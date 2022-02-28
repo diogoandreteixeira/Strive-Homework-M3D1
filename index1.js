@@ -97,6 +97,8 @@ function copies (string, number) {
     }
 }
 
+console.log ("Exercice 6")
+
 console.log(copies("school", 5))
 
 /*
@@ -105,6 +107,17 @@ console.log(copies("school", 5))
 Create a function to display the city name if the string begins with "Los" or "New" otherwise return blank.
 */
 
+function displayCity (string) {
+    if(string.startsWith("Los") || string.startsWith("New")) {
+        return string
+    } else {
+        return "Try Again !"
+    }
+}
+
+console.log("EXERCICE 7")
+console.log(displayCity("Los Angeles"))
+console.log(displayCity("Las Vegas"))
 /*
 8)
 Create a function to calculate the sum of three elements of a given array of integers of length 3.
