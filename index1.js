@@ -250,13 +250,25 @@ const checkSign = function (a, b){
     }
 }
 
-console.log(checkSign(-1, 7))
+console.log(checkSign(-1, -7))
 
 // 16)
 // Create a function to create new string with first 3 characters are in lower case and the others in upper case. If the string length is less than 3 convert all the characters in upper case. 
 
 // 17)
 // Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
+
+console.log("EXERCICE 17")
+
+function calcSum (x, y) {
+    if ((x + y >= 50) && (x + y <= 80)) {
+        return 65
+    } else {
+        return 80
+    }
+}
+
+console.log(calcSum(30, 30))
 
  /* 18)
  Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example:
