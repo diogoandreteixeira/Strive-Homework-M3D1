@@ -97,7 +97,7 @@ function copies (string, number) {
     }
 }
 
-console.log ("Exercice 6")
+console.log ("EXERCICE 6")
 
 console.log(copies("school", 5))
 
@@ -116,6 +116,7 @@ function displayCity (string) {
 }
 
 console.log("EXERCICE 7")
+
 console.log(displayCity("Los Angeles"))
 console.log(displayCity("Las Vegas"))
 
@@ -123,6 +124,7 @@ console.log(displayCity("Las Vegas"))
 // Create a function to calculate the sum of three elements of a given array of integers of length 3.
 
 console.log("EXERCICE 8")
+
 const totalSum = (...args) => {
     let sum = 0
     for(let i=0; i < args.length; i++) {
