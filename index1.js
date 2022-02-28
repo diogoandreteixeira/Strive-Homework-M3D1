@@ -206,6 +206,23 @@ console.log (angle(179))
 
 // 13)
 // Create a function to find the index of the greatest element of a given array of integers
+console.log("EXERCICE 13")
+
+function findAndReturnIndex(numbers){
+    let greatestElement = numbers[0]
+    let greatestElementIndex = 0
+
+    for (let i=1; i < numbers.length; i++) {
+        if (numbers[i] > greatestElement){
+            greatestElement = numbers[i]
+            greatestElementIndex = i
+        }
+    }
+    return greatestElementIndex
+}
+
+
+console.log(findAndReturnIndex([3, 6, 2]))
 
 // 14)
 // Create a function to get the largest even number from an array of integers.
