@@ -52,7 +52,19 @@ console.log(deleteMe("MotorBike", 4))
 4)
  Create a function to find the largest of three given integers.
 */
+function bigBiggest (x,y,z) {
+    if(x >= y && z) {
+        return x
+    } else if (y >= x && z) {
+        return y
+    } else {
+        return z
+    }
+}
 
+console.log("EXERCICE 4")
+
+console.log(bigBiggest(10, 23, 15))
 /*
 5)
 Create a function to check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
