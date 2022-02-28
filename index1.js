@@ -183,12 +183,26 @@ console.log(longestStr("pb", "bol", "ball"))
 
 // 12)
 // Create a function to find the types of a given angle.
-
+console.log("EXERCICE 12")
 //  Types of angles:
 //    Acute angle: An angle between 0 and 90 degrees.
 //    Right angle: An 90 degree angle.
 //    btuse angle: An angle between 90 and 180 degrees.
 //    Straight angle: A 180 degree angle.
+
+function angle(angleValue) {
+    if (angleValue < 90 && angleValue > 0) {
+        return "acute angle"
+    } else if (angleValue === 90) {
+        return "right angle"
+    } else if (angleValue < 180 && angleValue > 90) {
+        return "Obtuse angle"
+    } else {
+        return "ooooooppppsss"
+    }
+}
+
+console.log (angle(179))
 
 // 13)
 // Create a function to find the index of the greatest element of a given array of integers
