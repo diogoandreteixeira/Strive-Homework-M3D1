@@ -118,60 +118,68 @@ function displayCity (string) {
 console.log("EXERCICE 7")
 console.log(displayCity("Los Angeles"))
 console.log(displayCity("Las Vegas"))
-/*
-8)
-Create a function to calculate the sum of three elements of a given array of integers of length 3.
-*/
 
-/*
+// 8)
+// Create a function to calculate the sum of three elements of a given array of integers of length 3.
 
-9)
-Create a function to test whether an array of integers of length 2 contains 1 or a 3. 
-*/
 
-/*
 
-10)
+// 9)
+// Create a function to test whether an array of integers of length 2 contains 1 or a 3. 
+console.log("EXERCICE 9")
 
-Create a function to test whether an array of integers of length 2 does not contain 1 or a 3
+let arrayEx = [1, 2]
+function testInt() {
+    if((arrayEx.includes(1)) || (arrayEx.includes(3))) {
+        return true 
+    } else {
+        return false
+    }
+}
+console.log(testInt())
 
-11)
+// 10)
+// Create a function to test whether an array of integers of length 2 does not contain 1 or a 3
+console.log("EXERCICE 10")
 
-Create a function to find the longest string from a given array of strings.
+let array = [1, 2]
+function testInt2() {
+    if((array.includes(1)) || (array.includes(3))) {
+        return false 
+    } else {
+        return true
+    }
+}
+console.log(testInt2())
+// 11)
+// Create a function to find the longest string from a given array of strings.
 
-12)
+// 12)
+// Create a function to find the types of a given angle.
 
-Create a function to find the types of a given angle.
+//  Types of angles:
+//    Acute angle: An angle between 0 and 90 degrees.
+//    Right angle: An 90 degree angle.
+//    btuse angle: An angle between 90 and 180 degrees.
+//    Straight angle: A 180 degree angle.
 
-Types of angles:
-    Acute angle: An angle between 0 and 90 degrees.
-    Right angle: An 90 degree angle.
-    btuse angle: An angle between 90 and 180 degrees.
-    Straight angle: A 180 degree angle.
+// 13)
+// Create a function to find the index of the greatest element of a given array of integers
 
-13)
+// 14)
+// Create a function to get the largest even number from an array of integers.
 
-Create a function to find the index of the greatest element of a given array of integers
+// 15)
+// Create a function to check from two given integers, whether one is positive and another one is negative.
 
-14)
+// 16)
+// Create a function to create new string with first 3 characters are in lower case and the others in upper case. If the string length is less than 3 convert all the characters in upper case. 
 
-Create a function to get the largest even number from an array of integers.
+// 17)
+// Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
 
-16)
-
-Create a function to check from two given integers, whether one is positive and another one is negative.
-
-17)
-
-Create a function to create new string with first 3 characters are in lower case and the others in upper case. If the string length is less than 3 convert all the characters in upper case. 
-
-18)
-
-Create a function to calculate the sum of the two given integers, If the sum is in the range 50..80 return 65 other wise return 80.
-
-19)
-
-Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example:
+ /* 18)
+ Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example:
 
 If the number has 3 as a factor, output 'Diego'.
 If the number has 5 as a factor, output 'Riccardo'.
@@ -183,9 +191,8 @@ this would be a simple "Stefano".
 30's factors are 1, 2, 3, 5, 6, 10, 15, 30.
 this would be a "DiegoRiccardo".
 34 has four factors: 1, 2, 17, and 34.
-this would be "34".
+this would be "34". */
 
-20)
-Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
+// 19)
+// Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
 
-*/
