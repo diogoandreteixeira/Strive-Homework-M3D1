@@ -287,4 +287,14 @@ this would be "34". */
 
 // 19)
 // Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
+console.log("EXERCICE 19")
 
+function returningStrings (str1, str2) {
+    if(str1.typeof === str2.typeof) {
+        return str1[0] + str2[0]
+    } else {
+        return "You're Fucked Buddy!"
+    }
+}
+
+console.log(returningStrings("Fuck", "Umbilicus Motherless"))
