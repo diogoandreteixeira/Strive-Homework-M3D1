@@ -236,9 +236,21 @@ const findLargestEvenNumber = function (arr) {
   };
   
   console.log(findLargestEvenNumber([23, 65, 2, 13]))
-  
+
 // 15)
 // Create a function to check from two given integers, whether one is positive and another one is negative.
+
+console.log("EXERCICE 15")
+
+const checkSign = function (a, b){ 
+    if((a < 0 && b > 0) || (a > 0 && b < 0)) {
+        return true 
+    } else {
+        return false
+    }
+}
+
+console.log(checkSign(-1, 7))
 
 // 16)
 // Create a function to create new string with first 3 characters are in lower case and the others in upper case. If the string length is less than 3 convert all the characters in upper case. 
