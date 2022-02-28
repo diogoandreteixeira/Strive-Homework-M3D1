@@ -167,7 +167,19 @@ console.log(testInt2())
 // 11)
 // Create a function to find the longest string from a given array of strings.
 
+function longestStr (x, y, z) {
+    if(x.length >= y.length  && z.length ) {
+        return x
+    } else if (y.length  >= x.length  && z.length ) {
+        return y
+    } else if (z.length  >= x.length  && y.length ) {
+        return z
+    }
+}
 
+console.log("EXERCICE 11")
+
+console.log(longestStr("pb", "bol", "ball"))
 
 // 12)
 // Create a function to find the types of a given angle.
