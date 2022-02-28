@@ -183,12 +183,13 @@ console.log(longestStr("pb", "bol", "ball"))
 
 // 12)
 // Create a function to find the types of a given angle.
-console.log("EXERCICE 12")
 //  Types of angles:
 //    Acute angle: An angle between 0 and 90 degrees.
 //    Right angle: An 90 degree angle.
 //    btuse angle: An angle between 90 and 180 degrees.
 //    Straight angle: A 180 degree angle.
+
+console.log("EXERCICE 12")
 
 function angle(angleValue) {
     if (angleValue < 90 && angleValue > 0) {
@@ -314,6 +315,7 @@ console.log(convert([0, 1, 1, 7]))
 
 // 19)
 // Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
+
 console.log("EXERCICE 19")
 
 function returningStrings (str1, str2) {
