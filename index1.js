@@ -271,8 +271,7 @@ function calcSum (x, y) {
 console.log(calcSum(30, 30))
 
  /* 18)
- Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example:
-
+Create a function to convert a number to a string, the contents of which depend on the number's factors. Follow next example: 
 If the number has 3 as a factor, output 'Diego'.
 If the number has 5 as a factor, output 'Riccardo'.
 If the number has 7 as a factor, output 'Stefano'.
@@ -284,6 +283,22 @@ this would be a simple "Stefano".
 this would be a "DiegoRiccardo".
 34 has four factors: 1, 2, 17, and 34.
 this would be "34". */
+
+console.log("EXERCICE 18")
+
+function convert(x) {
+    if(x.includes(3)) {
+        return "Diego"
+    } else if (x.includes(5)) {
+        return "Riccardo"
+    } else if ( x.includes(7)) {
+    return "Stefano"
+    }
+}
+
+console.log(convert([0, 5, 1, 2]))
+console.log(convert([0, 1, 1, 7]))
+
 
 // 19)
 // Create a function that given a phrase returns its acronym, like British Broadcasting Corporation returns BBC
