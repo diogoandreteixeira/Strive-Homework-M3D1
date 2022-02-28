@@ -69,7 +69,16 @@ console.log(bigBiggest(10, 23, 15))
 5)
 Create a function to check whether two numbers are in range 40..60 or in the range 70..100 inclusive.
 */
+function inRange (x, y) {
+    if(((x && y >= 40) && (x && y <= 60)) || ((x && y >= 70) && (x && y <= 100))) {
+        return true
+    } else {
+        return false
+    }
+}
 
+console.log("EXERCICE 5")
+console.log(inRange(45, 99))
 /*
 6) 
 
