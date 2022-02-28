@@ -85,6 +85,20 @@ console.log(inRange(45, 99))
 Create a function to create a new string of specified copies (positive number) of a given string.
 */
 
+function copies (string, number) {
+    if (number <= 0) {
+        return undefined
+    } else {
+        let otherStr = ""
+        for(let i = 0; i < number; i++) {
+            otherStr = otherStr + " " + string
+        }
+        return otherStr
+    }
+}
+
+console.log(copies("school", 5))
+
 /*
 
 7)
