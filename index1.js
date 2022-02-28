@@ -40,6 +40,13 @@ console.log(checkFifty(50, 25))
 Create a function to remove a character at the specified position of a given string and return the new string.
 */
 
+function deleteMe (string, position) {
+    return string.slice(0, position) + string.slice(position + 1) // Concatenating both strings
+}
+
+console.log("EXERCICE 3")
+
+console.log(deleteMe("MotorBike", 4))
 /*
 
 4)
