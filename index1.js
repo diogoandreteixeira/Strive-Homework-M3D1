@@ -206,6 +206,7 @@ console.log (angle(179))
 
 // 13)
 // Create a function to find the index of the greatest element of a given array of integers
+
 console.log("EXERCICE 13")
 
 function findAndReturnIndex(numbers){
@@ -222,11 +223,20 @@ function findAndReturnIndex(numbers){
 }
 
 
-console.log(findAndReturnIndex([3, 6, 2]))
+console.log(findAndReturnIndex([3, 6, 2])) // Never forget the Square brackets if you want to pass an array
 
 // 14)
 // Create a function to get the largest even number from an array of integers.
 
+console.log("EXERCICE 14")
+
+const findLargestEvenNumber = function (arr) {
+    const evenNums = arr.filter((n) => n % 2 === 0);
+    return evenNums.sort((a, b) => a - b)[evenNums.length - 1];
+  };
+  
+  console.log(findLargestEvenNumber([23, 65, 2, 13]))
+  
 // 15)
 // Create a function to check from two given integers, whether one is positive and another one is negative.
 
