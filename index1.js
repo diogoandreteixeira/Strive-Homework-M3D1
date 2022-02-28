@@ -11,16 +11,29 @@ function summed (x, y) {
         return x + y
     }
 }
+console.log("EXERCICE 1")
 
- // console.log(summed(3, 3))
-
- // console.log(summed(5,8))
+console.log(summed(3, 3))
+console.log(summed(5,8))
 
 
 /*
 2)
 Create a function to check two given numbers and return true if one of the number is 50 or if their sum is 50.
 */
+
+function checkFifty (x, y) {
+    if(x===50 || y===50 || x+y ===50){
+        return true
+    } else {
+        return false
+    }
+}
+
+console.log("EXERCICE 2")
+
+console.log(checkFifty(25, 25))
+console.log(checkFifty(50, 25))
 
 /*
 3)
