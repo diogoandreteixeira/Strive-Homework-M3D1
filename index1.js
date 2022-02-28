@@ -121,7 +121,16 @@ console.log(displayCity("Las Vegas"))
 
 // 8)
 // Create a function to calculate the sum of three elements of a given array of integers of length 3.
+console.log("EXERCICE 8")
+const totalSum = (...args) => {
+    let sum = 0
+    for(let i=0; i < args.length; i++) {
+        sum = sum + args[i]
+    }
+    return sum
+}
 
+console.log(totalSum(6, 7, 9))
 
 
 // 9)
@@ -142,7 +151,7 @@ console.log(testInt())
 // Create a function to test whether an array of integers of length 2 does not contain 1 or a 3
 console.log("EXERCICE 10")
 
-let array = [1, 2]
+let array = [5, 2]
 function testInt2() {
     if((array.includes(1)) || (array.includes(3))) {
         return false 
